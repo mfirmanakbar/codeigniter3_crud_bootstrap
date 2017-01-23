@@ -2,7 +2,7 @@
 Codeigniter v3 CRUD BootstrapCSS
 ###################
 
-![alt tag](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/screenshots/Screen%20Shot%202017-01-23%20at%204.29.17%20PM.png)
+![alt tag](https://github.com/firmanprogrammer/php_crud_bootstrap/blob/master/screenshots/database.png?raw=true)
 
 
 ###################
