@@ -7,8 +7,8 @@
 
 ### Tutorial 
 1. Install & Config 
-   * Download CodeIgniter V.3 [Click Here](https://www.codeigniter.com/).
-   * Create a file *.htaccess* in your project folder "CI/YourProject". [Source Code .htaccess](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/.htaccess)
-   * Create a file "Template.php" in "application/libraries". [Source Code Template.php](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/application/libraries/Template.php). 
-   *
-   *
+  * Download CodeIgniter V.3 [Click Here](https://www.codeigniter.com/).
+  * Create a file *.htaccess* in your project folder "CI/YourProject". [Source Code .htaccess](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/.htaccess)
+  * Create a file "Template.php" in "application/libraries". [Source Code Template.php](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/application/libraries/Template.php). 
+  *
+  *
