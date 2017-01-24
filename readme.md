@@ -1,12 +1,9 @@
 
 # Codeigniter V.3 CRUD Bootstrap CSS
 
-![Alt text](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/screenshots/Screen%20Shot%202017-01-23%20at%204.29.17%20PM.png)
-
 <img src="https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/screenshots/Screen%20Shot%202017-01-23%20at%204.29.17%20PM.png" width="50%" ></img>
 
 ### What is CodeIgniter? [Click Here](https://www.codeigniter.com/). 
-
 ### Tutorial 
 1. Install & Config
   * Download CodeIgniter V.3 [Click Here](https://www.codeigniter.com/).
