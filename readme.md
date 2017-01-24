@@ -18,6 +18,30 @@
     $autoload['helper'] = array('url','file','form');
     ```
     
-  * ss
+  * Open **application/config/config.php** and Change config like this:
+    ```
+    //begin - this for base_url
+    $root = "http://".$_SERVER['HTTP_HOST']; 
+    $root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
+    $config['base_url']    = "$root";
+    //end
+    ```
+    
+    ```
+    $config['index_page'] = '';
+    ```
+    
+    ```
+    $config['url_suffix'] = '.html';
+    ```
+    
+    ```
+    $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
+    ```
+    
+    ```
+    $config['encryption_key'] = 'bkavahs%$^#54sfa5^RVD^ASo'; //Change encryption_key with whatever you want
+    ```
+        
   *
 
