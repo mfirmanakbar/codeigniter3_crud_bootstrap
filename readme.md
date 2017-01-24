@@ -13,9 +13,11 @@
     ```
     $autoload['libraries'] = array('session','database','Template','form_validation','encrypt');
     ```
+    
     ```
     $autoload['helper'] = array('url','file','form');
     ```
+    
   * ss
   *
 
