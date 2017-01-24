@@ -42,11 +42,12 @@
     ```
     
     ```
-    $config['encryption_key'] = 'bkavahs%$^#54sfa5^RVD^ASo'; //Change encryption_key with whatever you want
+    $config['encryption_key'] = 'bkavahsalhciyGT67ats78rfcD^ASo'; //Change encryption_key with whatever you want
     ```
         
   * You can download database from [here] (https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/tree/master/database) and change code  
   * Open **application/config/database.php** and change this with yours
+  
     ```
     'hostname' => 'localhost',
     'username' => 'root',
@@ -84,7 +85,7 @@
   *	Copy and Paste folder *fpdf181* into **application/fpdf181** [Download Here](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/tree/master/application/fpdf181)
   * Create a new file with name *Fpdf_gen.php* in **application/library** [Source Code](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/tree/master/application/fpdf181)
   * Finally the complate Page view and controller:
-    [Controller Home.php](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/application/controllers/Home.php)
-    [Page view page_home.php](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/application/views/page_home.php)
-    [Page view page_excel.php](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/application/views/page_excel.php)
+    - [Controller Home.php](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/application/controllers/Home.php)
+    - [Page view page_home.php](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/application/views/page_home.php)
+    - [Page view page_excel.php](https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/application/views/page_excel.php)
 
