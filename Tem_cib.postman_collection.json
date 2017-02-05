@@ -1,0 +1,150 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Tem_cib",
+		"_postman_id": "d6da4494-9b9f-bf3d-efc5-6729a3dc7fe0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "REGISTER",
+			"request": {
+				"url": "http://localhost/tem_cib/api",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"g@g.com\",\n  \"password\": \"asaxef45gwc\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "LOGIN",
+			"request": {
+				"url": "http://localhost/tem_cib/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"k@k.com\",\n  \"password\": \"k@k.com\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE PASSWORD",
+			"request": {
+				"url": "http://localhost/tem_cib/api/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"k@k.com\",\n  \"password\": \"k@k.com\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "SHOW ALL USERS",
+			"request": {
+				"url": "http://localhost/tem_cib/api/show_all_users",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "SHOW ONE USER",
+			"request": {
+				"url": "http://localhost/tem_cib/api/show_one_user",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"k@k.com\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ONE USER HEADER",
+			"request": {
+				"url": "http://localhost/tem_cib/api/show_one_user_header",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Session-id",
+						"value": "2d47436625a76b11e5eca1b94e55e2aa98d5f725",
+						"description": ""
+					},
+					{
+						"key": "Token-api",
+						"value": "67a74306b06d0c01624fe0d0249a570f4d093747",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"k@k.com\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE USER",
+			"request": {
+				"url": "http://localhost/tem_cib/api/delete_user",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"s@s\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
