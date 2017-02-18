@@ -54,6 +54,8 @@
     'password' => '',
     'database' => 'tem_all',
     ```
+  * Set template, download [here] (https://github.com/firmanprogrammer/codeigniter3_crud_bootstrap/blob/master/application/libraries/Template.php) and save it to   **/application/libraries/Template.php**
+
 
 2. Part-2
   * Rename file and class Controller *Welcome.php* **application/controller/Welcome.php** to *Home.php*
